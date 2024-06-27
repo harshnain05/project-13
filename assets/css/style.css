@@ -7,6 +7,15 @@
     box-sizing: border-box;
     text-decoration: none !important;
   }
+  section {
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
   .container {
       max-width: 1140px;
       margin-left: auto;
@@ -44,6 +53,7 @@
   .position-relative {
       position: relative;
   }
+  
   .para {
       font-family: 'Segoe UI' , sans-serif;
           font-size: 16px;
@@ -55,11 +65,11 @@
   }
   .card {
       margin: auto;
-      align-content: center;
       width: 700px;
       height: 450px;
+    align-content:center;
       border-radius: 10px;
-      align-items: center;
+    
   }
   .position {
       position: absolute;
@@ -84,6 +94,7 @@
           border: 2px solid #4D73F8;
           background-color:#4D73F8;
           border-radius: 100px;
+
           padding: 10px;
           margin-top: 20px;
           margin-left: 285px;
